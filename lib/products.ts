@@ -101,41 +101,52 @@ export const products: Product[] = [
 
   // Flashlights
   {
-    slug: "tactical-led-flashlight",
-    name: "Tactical LED Flashlight",
+    slug: "lhknl-rechargeable-headlamp",
+    name: "LHKNL Rechargeable LED Headlamp",
     category: "flashlights",
-    summary: "High-output LED flashlight with multiple modes and strike bezel",
-    features: ["1200 lumen output", "5 light modes", "Strike bezel", "Waterproof IPX8"],
-    badges: ["Tactical", "Waterproof", "1200 Lumens"],
-    image: "/products/tactical-led-flashlight.png",
-    gallery: ["/products/tactical-led-flashlight.png"],
+    summary: "Ultra-light rechargeable LED headlamp with motion sensor, 8 lighting modes, and 60° adjustable pivot, perfect for outdoor and indoor use.",
+    features: [
+      "Long press",
+      "Motion sensor",
+      "8 lighting modes",
+      "IPX4 water resistance"
+    ],
+    badges: ["Rechargeable", "Ultra-Light", "Water-Resistant"],
+    image: "/products/flashlights/headlamp-flashlight.jpg",
     specs: {
-      Output: "1200 lumens",
-      Battery: "18650 Li-ion",
-      Runtime: "2.5 hours",
-      Length: "5.5 inches",
-      Weight: "4.2 oz",
-      Material: "Aircraft aluminum",
+      Output: "2X brighter lumens",
+      Battery: "1500mAh Lithium-Ion rechargeable",
+      Runtime: "4 to 10 hours",
+      Length: "Adjustable elastic headband, 60° pivot head",
+      Weight: "1.87 oz",
+      Material: "Anodized shell"
     },
-    externalUrl: "https://example.com/tactical-flashlight",
+    externalUrl: "https://a.co/d/8iy8BBz"
   },
-  {
-    slug: "headlamp-rechargeable",
-    name: "Rechargeable Headlamp",
-    category: "flashlights",
-    summary: "Hands-free LED headlamp with red light mode and USB charging",
-    features: ["Hands-free operation", "Red light mode", "USB rechargeable", "Adjustable beam"],
-    badges: ["Rechargeable", "Red Light"],
-    image: "/products/headlamp-rechargeable.png",
-    specs: {
-      Output: "400 lumens",
-      Battery: "Built-in Li-ion",
-      Runtime: "8 hours",
-      Weight: "3.1 oz",
-      "Water Rating": "IPX6",
-    },
-    externalUrl: "https://example.com/headlamp",
+{
+  slug: "ultrafire-keychain-flashlight",
+  name: "ULTRAFIRE Keychain Flashlight",
+  category: "flashlights",
+  summary: "Ultra-compact 1000 lumen rechargeable flashlight with adjustable focus, magnetic tail, and clip for versatile everyday carry.",
+  features: [
+    "1000 lumen",
+    "Adjustable focus",
+    "4 lighting modes ",
+    "Magnetic tail and clip"
+  ],
+  badges: ["Rechargeable", "Adjustable Focus", "Water-Resistant"],
+  image: "/products/flashlights/ultrafire-flashlight.jpg",
+  specs: {
+    Output: "1000 lumens",
+    Battery: "Built-in rechargeable Li-ion",
+    Runtime: "Varies by mode",
+    Weight: "1 oz",
+    Material: "Aluminum",
+    "Water Rating": "Water-resistant with USB cover"
   },
+  externalUrl: "https://a.co/d/8n058dc"
+}
+,
 
   // Multitools
   {

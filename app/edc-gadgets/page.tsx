@@ -72,16 +72,7 @@ export default function EDCGadgetsPage() {
         </div>
       </section>
 
-      {/* EDC Checklist */}
-      <section className="py-16 bg-[#0B1110]">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading
-            title="Build Your EDC Kit"
-            description="Use this checklist to evaluate and improve your everyday carry setup"
-          />
-          <EDCChecklist />
-        </div>
-      </section>
+      
 
       {/* Featured Products by Category */}
       <div className="bg-[#0F1517]">
@@ -119,6 +110,18 @@ export default function EDCGadgetsPage() {
           categorySlug="edc"
         />
       </div>
+
+      {/* EDC Checklist */}
+      <section className="py-16 bg-[#0B1110]">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading
+            title="Build Your EDC Kit"
+            description="Use this checklist to evaluate and improve your everyday carry setup"
+          />
+          <EDCChecklist />
+        </div>
+      </section>
+      
     </div>
   )
 }
