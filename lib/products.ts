@@ -38,7 +38,7 @@ export const products: Product[] = [
     summary: "NATO-approved waterproof matches that burn in extreme conditions",
     features: ["Burns underwater", "15-second burn time", "Windproof flame", "Strike-anywhere tip"],
     badges: ["Waterproof", "NATO-Spec"],
-    image: "/products/fire/sotrmproof_matches.jpg",
+    image: "/products/fire/stormproofmatches.png",
     specs: {
       Count: "25 matches",
       "Burn Time": "15 seconds",
@@ -54,7 +54,7 @@ export const products: Product[] = [
     summary: "Classic flint and steel fire starting method with char cloth",
     features: ["Traditional method", "Includes ruler and map scale", "Easy to use", "Bottle opener", "Waterproof"],
     badges: ["Traditional", "Firestarter"],
-    image: "/products/fire/fire-steel.jpg",
+    image: "/products/fire/fire-steel.png",
     specs: {
       "Length": "11 inches",
       "Flint Size": "7.5 inches",
@@ -85,10 +85,10 @@ export const products: Product[] = [
     slug: "cat-tactical-knife",
     name: "Cat Folding Knife",
     category: "knives",
-    summary: "Caterpillar - 6-1/4 Folding Pocket Knife W/Bottle Open, Hand Tools, Knives/Blades - No Utility, Knives - Folding (980298)",
+    summary: "Caterpillar Folding Pocket Knife W/Bottle Open, Hand Tools, Knives/Blades ",
     features: ["Drop Point", "Stainless Steel", "Pocket clip", "Bottle Opener"],
     badges: ["Tactical", "Stainless Steel"],
-    image: "/products/knives/catknife.jpg",
+    image: "/products/knives/catknife.png",
     specs: {
       "Blade Length": "2-5/8 inches",
       "Closed Length": "43-1/2 inches",
@@ -97,6 +97,50 @@ export const products: Product[] = [
       Weight: "	0.17 Pounds",
     },
     externalUrl: "https://a.co/d/fftPy6T",
+  },
+  {
+    slug: "tactical-camping-axe",
+    name: "Hitdudu Tactical Camping Axe",
+    category: "knives",
+    summary: "15.3-inch survival hatchet with spike and sheath for outdoor camping, hiking, and tactical use.",
+    features: [
+      "Axe edge",
+      "Fiberglass-reinforced nylon handle ",
+      "Stainless steel head",
+      "Durable nylon sheath for blade protection"
+    ],
+    badges: ["Tactical", "Survival", "Multi-Function"],
+    image: "/products/knives/axe.jpg",
+    specs: {
+      "Blade Length": "4.7 inches",
+      "Overall Length": "15.3 inches",
+      Weight: "1.59 lbs",
+      Material: "Stainless steel head, fiberglass-reinforced handle",
+      Brand: "Hitdudu"
+    },
+    externalUrl: "https://a.co/d/dtcfM3h"
+  },
+  {
+    slug: "dispatch-fixed-blade-knife",
+    name: "Dispatch Fixed Blade Hunting Knife",
+    category: "knives",
+    summary: "12-inch tactical hunting knife.",
+    features: [
+      "Stainless steel blade",
+      "Ergonomic non-slip rubber handle",
+      "Heavy-duty sheath with belt clip"
+    ],
+    badges: ["Tactical", "Survival", "Fixed Blade"],
+    image: "/products/knives/blade-knife.jpg",
+    specs: {
+      "Blade Length": "7.1 inches",
+      "Overall Length": "12 inches",
+      "Blade Thickness": "0.12 inches",
+      Weight: "14.4 oz",
+      Material: "High carbon stainless steel blade",
+      Brand: "Dispatch"
+    },
+    externalUrl: "https://a.co/d/adMwYl8"
   },
 
   // Flashlights
@@ -145,200 +189,375 @@ export const products: Product[] = [
     "Water Rating": "Water-resistant with USB cover"
   },
   externalUrl: "https://a.co/d/8n058dc"
-}
-,
+},
+
+{
+    slug: "vtiger-t2a-compact-edc-flashlight",
+    name: "VTIGER T2A Compact EDC Flashlight",
+    category: "flashlights",
+    summary: "Pen light USB-C compatible with AA, water resistant.",
+    features: [
+      "Rechargeable battery USB-C 1800mAh",
+      "Comptatible with AA batteries"
+    ],
+    badges: ["Rechargeable", "Tactic", "Magnetic"],
+    image: "/products/flashlights/penlight.jpg",
+    specs: {
+      Output: "1500 lumen",
+      Alcance: "200 m / 656 ft",
+      Battery: "Recargable USB-C 1800mAh",
+      Runtime: "Up to 60 hours",
+      Peso: "Lightweight"
+    },
+    externalUrl: "https://a.co/d/5tkz7Eq"
+  },
 
   // Multitools
   {
-    slug: "premium-multitool",
-    name: "Premium Multi-Tool",
+    slug: "gerber-suspension-nxt",
+    name: "Gerber Gear Suspension-NXT 15-in-1 Multi-Tool",
     category: "multitools",
-    summary: "17-function multi-tool with pliers, knife, and essential tools",
-    features: ["17 functions", "Needle-nose pliers", "Locking blade", "Nylon sheath"],
-    badges: ["17 Tools", "Locking"],
-    image: "/products/premium-multitool.png",
-    gallery: ["/products/premium-multitool.png"],
+    summary: "Compact stainless steel 15-in-1 multi-tool.",
+    features: [
+      "15 functions",
+      "Durable stainless steel",
+      "Butterfly opening",
+      "Pocket clip and lanyard point for easy carry"
+    ],
+    badges: ["15 Tools", "Locking", "Stainless Steel", "Pocket Clip"],
+    image: "/products/multitools/gerber.jpg",
     specs: {
-      Tools: "17 functions",
-      "Blade Length": "2.9 inches",
+      Tools: "15 functions",
+      "Blade Length": "2.25 inches",
       "Closed Length": "4.25 inches",
-      Weight: "8.5 oz",
+      "Open Length": "6.5 inches",
+      Weight: "6.4 oz",
       Material: "Stainless steel",
+      Brand: "Gerber"
     },
-    externalUrl: "https://example.com/premium-multitool",
+    externalUrl: "https://a.co/d/3KOmfx6"
   },
   {
-    slug: "compact-edc-tool",
-    name: "Compact EDC Multi-Tool",
+    slug: "funbro-carabiner-multitool",
+    name: "FUNBRO Carabiner Multitool with Pocket Knife",
     category: "multitools",
-    summary: "Lightweight 12-function tool perfect for everyday carry",
-    features: ["12 functions", "Lightweight design", "Key ring attachment", "Compact size"],
-    badges: ["Compact", "Lightweight"],
-    image: "/products/compact-edc-tool.png",
+    summary: "6-in-1 stainless steel EDC carabiner for camping, hiking, and everyday carry.",
+    features: [
+      "6-in-1 functionality",
+      "Durable stainless steel",
+      "Compact and portable design",
+      "Ideal for outdoor activities and as a gift for men"
+    ],
+    badges: ["6-in-1", "EDC", "Stainless Steel"],
+    image: "/products/multitools/carabiner.png",
     specs: {
-      Tools: "12 functions",
-      Length: "3.5 inches",
-      Weight: "3.2 oz",
-      Attachment: "Key ring",
+      Dimensions: "4.5 x 2.2 inches",
+      Weight: "3.8 oz",
+      Material: "Stainless steel",
+      Color: "Black",
+      Brand: "FUNBRO"
     },
-    externalUrl: "https://example.com/compact-multitool",
+    externalUrl: "https://a.co/d/8raOzPI"
   },
 
   // First Aid
   {
-    slug: "trauma-first-aid-kit",
-    name: "Trauma First Aid Kit",
+    slug: "430pc-first-aid-kit",
+    name: "430 Piece First Aid Kit",
     category: "first-aid",
-    summary: "Comprehensive trauma kit with tourniquets and emergency supplies",
-    features: ["CAT tourniquet", "Israeli bandages", "Chest seals", "Emergency blanket"],
-    badges: ["Trauma", "Professional"],
-    image: "/products/trauma-first-aid-kit.png",
+    summary: "Premium waterproof trauma medical kit with 430 pieces for home, office, car, travel, and outdoor emergencies.",
+    features: [
+      "430 professional-grade medical items",
+      "Waterproof",
+      "Well-organized interior",
+      "Reflective stripst",
+      "MOLLE system",
+    ],
+    badges: ["Waterproof", "Trauma Ready", "Portable"],
+    image: "/products/firstaid/firstaidkit.jpg",
     specs: {
-      Items: "45 pieces",
-      Case: "MOLLE compatible",
-      Weight: "2.1 lbs",
-      Dimensions: "8x6x3 inches",
+      Pieces: "430",
+      Brand: "THRIAID",
+      Color: "Red",
+      Special_Feature: "Waterproof",
+      Material: "Premium polyester fiber fabric",
+      Recommended_Uses: "Trauma, emergency, outdoor activities"
     },
-    externalUrl: "https://example.com/trauma-kit",
+    externalUrl: "https://a.co/d/example"
   },
   {
-    slug: "wilderness-first-aid",
-    name: "Wilderness First Aid Kit",
+    slug: "everlit-250pc-survival-kit",
+    name: "EVERLIT 250 Piece Survival First Aid Kit",
     category: "first-aid",
-    summary: "Backcountry medical kit for extended outdoor adventures",
-    features: ["Wilderness medications", "Splinting materials", "Water purification", "Instruction guide"],
-    badges: ["Wilderness", "Extended"],
-    image: "/products/wilderness-first-aid.png",
+    summary: "Compact and portable IFAK EMT molle pouch with 250 first aid and survival items, designed for camping, hunting, hiking, and emergency preparedness.",
+    features: [
+      "Designed by army veterans",
+      "Durable 1000D water-resistant",
+      "Survival tools",
+      "Three large compartments",
+      "Molle System"
+    ],
+    badges: ["Survival Ready", "Portable", "MOLLE Compatible"],
+    image: "/products/firstaid/survival-kit.jpg",
     specs: {
-      Items: "78 pieces",
-      Case: "Waterproof",
-      Weight: "1.8 lbs",
-      Coverage: "4 people, 14 days",
+      Pieces: "250",
+      Brand: "EVERLIT",
+      Color: "Red",
+      Special_Feature: "Compact, Mountable, Portable",
+      Material: "1000D water-resistant nylon",
+      Dimensions: "8 x 6.5 x 5 inches",
+      Weight: "2 lbs",
+      Recommended_Uses: "Camping, hunting, hiking"
     },
-    externalUrl: "https://example.com/wilderness-kit",
+    externalUrl: "https://a.co/d/example"
   },
 
   // EDC
   {
-    slug: "paracord-bracelet",
-    name: "Tactical Paracord Bracelet",
+    slug: "paracord-bracelet-survival-kit",
+    name: "Paracord Bracelet Survival Kit",
     category: "edc",
-    summary: "550 paracord bracelet with fire starter and whistle",
-    features: ["550 paracord", "Built-in fire starter", "Emergency whistle", "Quick release"],
-    badges: ["550 Cord", "Multi-Function"],
-    image: "/products/paracord-bracelet.png",
+    summary: "5-in-1 paracord bracelet",
+    features: [
+      "Compass",
+      "Whistle",
+      "Fire Starter",
+      "10 feet of paracord"
+    ],
+    badges: ["5-en-1", "Paracord 550", "Supervivencia"],
+    image: "/products/edc/paracord-bracelet.jpg",
     specs: {
-      "Cord Length": "12 feet",
-      Strength: "550 lbs",
-      Size: "Adjustable",
-      Color: "OD Green",
+      Material: "Paracord 550",
+      Longitud_Paracord: "10 feet",
+      Ajuste_Muñeca: "7.5\" - 9.5\"",
+      Herramientas: "Compass, whistle, firestarter, paracord",
+      Peso: "Lightweight",
+      Color: "Black",
+      Uso: "Survival, Hiking, Fishing, Hunting, Camping"
     },
-    externalUrl: "https://example.com/paracord-bracelet",
+    externalUrl: "https://a.co/d/example"
   },
   {
-    slug: "edc-pen-light",
-    name: "EDC Pen Light",
+    slug: "sabre-advanced-pepper-spray",
+    name: "SABRE Advanced 3-in-1 Pepper Spray",
     category: "edc",
-    summary: "Compact pen-style flashlight for everyday carry",
-    features: ["Pen clip design", "LED bulb", "AAA battery", "Pocket sized"],
-    badges: ["Compact", "EDC"],
-    image: "/products/edc-pen-light.png",
+    summary: "Compact maximum-strength pepper spray.",
+    features: [
+      "Maximum strength pepper spray",
+      "Compact design",
+      "Up to 35 bursts with 13-second",
+      "Effective range of 10 feet"
+    ],
+    badges: ["3-in-1 Formula", "Law Enforcement Trusted", "Belt Clip"],
+    image: "/products/edc/pepper-spray.jpg",
     specs: {
-      Output: "120 lumens",
-      Battery: "AAA",
-      Length: "5.5 inches",
-      Weight: "1.2 oz",
+      Formula: "Pepper spray",
+      Spray_Bursts: "35",
+      Spray_Time: "13 seconds",
+      Range: "10 feet",
+      Capacity: "0.67 fl oz",
+      Dimensions: "1 x 4 inches",
+      Weight: "35 grams",
+      Brand: "SABRE",
+      Origin: "Made in USA"
     },
-    externalUrl: "https://example.com/edc-pen-light",
+    externalUrl: "https://a.co/d/dhOC7ig"
   },
+  {
+    slug: "sodaride-window-breaker-keychain",
+    name: "SodaRide 2-in-1 Window Breaker & Seatbelt Cutter with Flashlight",
+    category: "edc",
+    summary: "Durable tungsten steel car escape tool with seatbelt cutter, dual-mode LED flashlight, and keychain portability.",
+    features: [
+      "Tungsten steel drill",
+      "Built-in seatbelt cutter",
+      "Dual flashlight modes",
+      "USB Type-C rechargeable battery",
+      "Compact, portable, and ergonomic",
+      "Durable and drop-proof"
+    ],
+    badges: ["2-in-1 Tool", "Tungsten Steel", "USB-C Rechargeable", "Keychain Ready"],
+    image: "/products/edc/windowbreaker.jpg",
+    specs: {
+      Material: "Alloy steel, glass",
+      Light_Modes: "Strobe & Full Light",
+      Strobe_Runtime: "6 hours",
+      FullLight_Runtime: "4 hours",
+      Charging_Port: "USB Type-C",
+      Resistance: "Up to 1000°C / 1832°F",
+      Weight: "Lightweight keychain",
+      Color: "Green",
+      Brand: "SodaRide",
+      Special_Feature: "Durable, portable, underwater capable"
+    },
+    externalUrl: "https://a.co/d/eYSoKdhk"
+  },
+
 
   // Backpacks
   {
-    slug: "tactical-backpack-72h",
-    name: "72-Hour Tactical Backpack",
+    slug: "military-tactical-backpack-50l",
+    name: "50L Military Tactical Backpack",
     category: "backpacks",
-    summary: "MOLLE-compatible tactical pack designed for 72-hour operations",
-    features: ["MOLLE webbing", "Hydration compatible", "Multiple compartments", "Reinforced construction"],
-    badges: ["MOLLE", "72-Hour", "Tactical"],
-    image: "/products/tactical-backpack-72h.png",
-    gallery: ["/products/tactical-backpack-72h.png"],
+    summary: "Heavy-duty MOLLE-compatible tactical backpack with 50L capacity",
+    features: [
+      "50L capacity",
+      "Durable water-resistant material",
+      "MOLLE webbing",
+      "Comfortable"
+    ],
+    badges: ["MOLLE", "Heavy-Duty", "50L Capacity"],
+    image: "/products/backpacks/backpack50l.jpg",
     specs: {
-      Capacity: "40 liters",
-      Material: "1000D Cordura",
-      Weight: "3.2 lbs",
-      Dimensions: "20x12x8 inches",
+      Capacity: "50 liters",
+      Material: "Water-resistant",
+      Weight: "Approx. 3.5 lbs",
+      Dimensions: "21.6 x 12.9 x 12.6 inches",
+      Color: "Black",
+      Includes: "US flag patch"
     },
-    externalUrl: "https://example.com/tactical-backpack",
+    externalUrl: "https://example.com/military-tactical-backpack-50l"
   },
   {
-    slug: "hiking-daypack",
-    name: "Hiking Day Pack",
+    slug: "haomuk-tactical-sling-bag",
+    name: "HAOMUK Tactical Sling Bag",
     category: "backpacks",
-    summary: "Lightweight daypack for hiking and outdoor adventures",
-    features: ["Lightweight design", "Hydration sleeve", "Rain cover", "Ventilated back panel"],
-    badges: ["Lightweight", "Hiking"],
-    image: "/products/hiking-daypack.png",
+    summary: "Compact MOLLE-compatible sling backpack ideal for EDC.",
+    features: [
+      "Water-resistant and high-density",
+      "Compact size ",
+      "Adjustable single shoulder",
+      "Multiple carrying options",
+      "MOLLE webbing "
+    ],
+    badges: ["MOLLE", "Compact", "EDC"],
+    image: "/products/backpacks/slingbag.jpg",
     specs: {
-      Capacity: "25 liters",
-      Weight: "1.8 lbs",
-      Material: "Ripstop nylon",
-      Features: "Rain cover included",
+      Capacity: "15 liters",
+      Material: "900D polyester",
+      Weight: "Lightweight",
+      Dimensions: "9.5 x 6.3 x 13.8 inches",
+      Color: "Black",
+      Care: "Hand wash only"
     },
-    externalUrl: "https://example.com/hiking-daypack",
+    externalUrl: "https://a.co/d/gGC0k1B"
   },
 
   // Shovels
   {
-    slug: "folding-shovel",
-    name: "Military Folding Shovel",
+    slug: "apidgrowth-folding-shovel",
+    name: "Apidgrowth Folding Shovel",
     category: "shovels",
-    summary: "Compact folding shovel with pick and saw edge",
-    features: ["Tri-fold design", "Pick attachment", "Saw edge", "Carrying case"],
-    badges: ["Military", "Multi-Function"],
-    image: "/products/folding-shovel.png",
+    summary: "Portable high carbon steel folding shovel with ergonomic handle and multi-tool functionality for camping, hiking, and emergencies.",
+    features: [
+      "Compact folding design for easy storage",
+      "Ergonomic non-slip handle for comfort",
+      "Multi-tool capabilities: dig, saw, cut",
+      "Durable high carbon steel construction"
+    ],
+    badges: ["Portable", "Multi-Function", "Ergonomic"],
+    image: "/products/shovel/folding-shovel.png",
     specs: {
-      Length: "23 inches extended",
-      Folded: "9 inches",
-      Weight: "2.2 lbs",
-      Material: "Carbon steel",
+      Length: "18.5 inches extended",
+      Folded: "10 inches",
+      Weight: "Approx. 2 lbs",
+      Material: "High carbon steel"
     },
-    externalUrl: "https://example.com/folding-shovel",
+    externalUrl: "https://a.co/d/7oUboPN"
+  },
+  {
+    slug: "fiskars-isocore-mattock",
+    name: "Fiskars IsoCore Pickaxe Mattock",
+    category: "shovels",
+    summary: "Durable dual-head mattock for breaking hardened ground, cutting roots, and prying rocks.",
+    features: [
+      "Dual-head",
+      "Textured, non-slip insulated handle",
+      "Slip-reducing flare"
+    ],
+    badges: ["Shock-Absorbing", "Dual-Head", "Durable Construction"],
+    image: "/products/shovel/mattock.jpg",
+    specs: {
+      Length: "14.13 inches",
+      Width: "9.81 inches",
+      Weight: "1.5 lbs",
+      Material: "Forged steel head, fiberglass + steel handle",
+      Color: "Orange/Black",
+      Brand: "Fiskars",
+      Head_Type: "Mattock"
+    },
+    externalUrl: "https://a.co/d/ca60tF2"
   },
 
-  // Rifles (Overview only)
+  // Rifles
   {
-    slug: "hunting-rifle-overview",
-    name: "Hunting Rifle Guide",
+    slug: "gamo-varmint-air-rifle",
+    name: "Gamo Varmint .177 Cal Air Rifle",
     category: "rifles",
-    summary: "Comprehensive guide to selecting hunting rifles for different game",
-    features: ["Caliber selection", "Action types", "Scope mounting", "Maintenance tips"],
-    badges: ["Educational", "Guide"],
-    image: "/products/hunting-rifle-overview.png",
+    summary: "Lightweight .177 caliber spring-piston air rifle with 4x32 scope, delivering up to 1,250 fps velocity.",
+    features: [
+      ".177 caliber single-shot air rifle",
+      "4x32 scope",
+      "Steel barrel with fluted polymer jacket",
+    ],
+    badges: ["High Velocity", "Spring-Piston", "Scoped"],
+    image: "/products/guns/varmint.jpg",
     specs: {
-      Content: "Educational guide",
-      Topics: "Rifle selection",
-      Format: "Digital guide",
+      Caliber: ".177",
+      Velocity: "1,250 fps",
+      Magazine_Capacity: "1 round",
+      Barrel_Material: "Alloy steel",
+      Frame_Material: "Plastic",
+      Scope: "4x32 with mounts",
+      Dimensions: "43.3 x 3 x 6.2 inches",
+      Weight: "5.5 lbs",
     },
-    externalUrl: "https://example.com/rifle-guide",
+    externalUrl: "https://a.co/d/7vezW2N"
   },
+
 
   // Apparel
   {
-    slug: "tactical-pants",
-    name: "Tactical Cargo Pants",
+    slug: "cqr-tactical-pants",
+    name: "CQR Men's Tactical Pants",
     category: "apparel",
-    summary: "Ripstop tactical pants with reinforced knees and multiple pockets",
-    features: ["Ripstop fabric", "Reinforced knees", "Cargo pockets", "Belt loops"],
-    badges: ["Ripstop", "Reinforced"],
-    image: "/products/tactical-pants.png",
+    summary: "Lightweight, water-resistant cargo pants ",
+    features: [
+      "Durable water",
+      "Lightweight",
+      "Elastic side waistband",
+      "Multiple cargo pockets"
+    ],
+    badges: ["Ripstop", "Water-Resistant", "Cargo Pockets"],
+    image: "/products/apparel/cargo.jpg",
     specs: {
-      Material: "65/35 Poly-Cotton",
-      Pockets: "8 total",
-      Colors: "OD Green, Khaki, Black",
-      Sizes: "28-44 waist",
+      Material: "65% Polyester, 35% Cotton",
+      Waist: "Elastic side waistband",
+      Pockets: "Multi-purpose cargo pockets",
     },
-    externalUrl: "https://example.com/tactical-pants",
+    externalUrl: "https://a.co/d/0wl1JZ1"
   },
+  {
+  slug: "achiou-cooling-neck-gaiter",
+  name: "Achiou Cooling Neck Gaiter",
+  category: "apparel",
+  summary: "Neck gaiter with UV protection",
+  features: [
+    "Soft",
+    "UV protection",
+    "Quick-drying",
+    "One size fits most",
+    "Multiple uses"
+  ],
+  badges: ["UV Protection", "Breathable", "Versatile"],
+  image: "/products/apparel/gaiter.jpg",
+  specs: {
+    Material: "Elastic soft breathable fabric",
+    Size: "9.4 x 15.3 inches",
+    Gender: "Unisex"
+  },
+  externalUrl: "https://a.co/d/gvihN4T"
+},
 ]
 
 export function getProductBySlug(slug: string): Product | undefined {

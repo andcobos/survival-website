@@ -72,8 +72,6 @@ export default function EDCGadgetsPage() {
         </div>
       </section>
 
-      
-
       {/* Featured Products by Category */}
       <div className="bg-[#0F1517]">
         <FeaturedProducts
