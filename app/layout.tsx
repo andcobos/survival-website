@@ -12,39 +12,38 @@ const inter = Inter({
   variable: "--font-inter",
 })
 
-const siteUrl =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
+const siteUrl = "https://tactival.vercel.app"
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Survival Ready - Essential Gear & Knowledge",
+  title: "Tactival - Essential Gear & Knowledge",
   description:
     "Your trusted source for survival gear, EDC essentials, and wilderness knowledge. Quality equipment and expert guidance for modern survivalists.",
   keywords:
     "survival gear, EDC, everyday carry, wilderness, tactical, outdoor equipment, survival skills, bushcraft",
-  authors: [{ name: "Survival Ready Team" }],
-  creator: "Survival Ready",
-  publisher: "Survival Ready",
+  authors: [{ name: "Tactival Team" }],
+  creator: "Tactival",
+  publisher: "Tactival",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: siteUrl,
-    title: "Survival Ready - Essential Gear & Knowledge",
+    title: "Tactival - Essential Gear & Knowledge",
     description:
       "Your trusted source for survival gear, EDC essentials, and wilderness knowledge.",
-    siteName: "Survival Ready",
+    siteName: "Tactival",
     images: [
       {
         url: "/og.png",
         width: 1200,
         height: 630,
-        alt: "Survival Ready - Essential Gear & Knowledge",
+        alt: "Tactival - Essential Gear & Knowledge",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Survival Ready - Essential Gear & Knowledge",
+    title: "Tactival - Essential Gear & Knowledge",
     description:
       "Your trusted source for survival gear, EDC essentials, and wilderness knowledge.",
     images: ["/og.png"],
