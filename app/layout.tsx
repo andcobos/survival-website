@@ -12,20 +12,26 @@ const inter = Inter({
   variable: "--font-inter",
 })
 
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "Survival Ready - Essential Gear & Knowledge",
   description:
     "Your trusted source for survival gear, EDC essentials, and wilderness knowledge. Quality equipment and expert guidance for modern survivalists.",
-  keywords: "survival gear, EDC, everyday carry, wilderness, tactical, outdoor equipment, survival skills, bushcraft",
+  keywords:
+    "survival gear, EDC, everyday carry, wilderness, tactical, outdoor equipment, survival skills, bushcraft",
   authors: [{ name: "Survival Ready Team" }],
   creator: "Survival Ready",
   publisher: "Survival Ready",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://survivalready.com",
+    url: siteUrl,
     title: "Survival Ready - Essential Gear & Knowledge",
-    description: "Your trusted source for survival gear, EDC essentials, and wilderness knowledge.",
+    description:
+      "Your trusted source for survival gear, EDC essentials, and wilderness knowledge.",
     siteName: "Survival Ready",
     images: [
       {
@@ -39,7 +45,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Survival Ready - Essential Gear & Knowledge",
-    description: "Your trusted source for survival gear, EDC essentials, and wilderness knowledge.",
+    description:
+      "Your trusted source for survival gear, EDC essentials, and wilderness knowledge.",
     images: ["/og.png"],
   },
   robots: {
