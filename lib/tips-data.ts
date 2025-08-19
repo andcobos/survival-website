@@ -19,102 +19,107 @@ export interface TipGuide {
 
 export const tipGuides: TipGuide[] = [
   {
-    slug: "fire-starting-basics",
-    title: "Fire Starting Basics: From Spark to Flame",
+    slug: "magnesium-fire-starting",
+    title: "How to Start a Fire with Magnesium: Step-by-Step Guide",
     category: "fire",
-    summary: "Master the fundamentals of fire starting with various methods and materials",
-    readTime: "8 min read",
+    summary: "Learn to reliably start a fire using a magnesium fire starter, even in harsh survival conditions.",
+    readTime: "4 min read",
     difficulty: "Beginner",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/tips/magnesium-firestarter.jpg",
     content: {
       introduction:
-        "Fire is one of the most critical survival skills. It provides warmth, light, cooking capability, water purification, and psychological comfort. This guide covers the essential methods and materials for starting fires in various conditions.",
+        "A magnesium fire starter is a reliable tool for survival situations because it works even when wet, unlike matches or lighters. The process involves shaving magnesium for a hot, sustained flame and striking sparks with a ferrocerium rod. Follow these steps to go from sparks to flame.",
       sections: [
         {
-          title: "The Fire Triangle",
+          title: "Tools You Need",
           content:
-            "Every fire needs three elements: heat, fuel, and oxygen. Understanding this triangle is crucial for both starting and maintaining fires. Remove any one element, and the fire dies.",
-          tips: [
-            "Heat sources include matches, lighters, ferro rods, and friction methods",
-            "Fuel progresses from tinder to kindling to larger wood",
-            "Oxygen flow is controlled by fire lay structure and wind direction",
-          ],
-        },
-        {
-          title: "Tinder Materials",
-          content:
-            "Tinder is the finest, most combustible material that catches the initial spark. Good tinder should ignite easily and burn long enough to light kindling.",
+            "Before you begin, gather all the essentials so you don’t waste time once you strike sparks.",
           checklist: [
-            "Dry grass and leaves",
-            "Birch bark",
-            "Cedar bark fibers",
-            "Pine needles",
-            "Paper or cardboard",
-            "Petroleum jelly cotton balls",
-            "Char cloth",
-            "Steel wool",
+            "Magnesium block with attached ferro rod",
+            "Sharp knife or scraper",
+            "Dry tinder (cotton balls, dry grass, bark shavings, or char cloth)",
+            "Kindling (small twigs, pencil-thin sticks)",
+            "Fuel wood (larger branches or logs)",
           ],
         },
         {
-          title: "Fire Lay Structures",
+          title: "Pro Tips",
           content:
-            "The arrangement of your fuel determines how well your fire burns. Different structures serve different purposes.",
+            "Small adjustments can make the difference between frustration and success:",
           tips: [
-            "Teepee: Good for getting fires started quickly",
-            "Log cabin: Burns steadily and creates good coals",
-            "Lean-to: Works well in windy conditions",
-            "Star fire: Efficient for long-term burning",
+            "Create a base of bark or flat wood if the ground is damp.",
+            "Magnesium burns very hot (around 5,400°F / 3,000°C) but fast — so have tinder and kindling ready before striking.",
+            "Shave fine magnesium curls, not big chunks, for easier ignition.",
+            "Block the wind with your body or a rock to keep sparks directed at the tinder pile.",
+            "Practice before you need it — magnesium fire starting takes a bit of technique.",
           ],
+        },
+        {
+          title: "Safety Reminder",
+          content:
+            "Magnesium burns extremely hot and bright. Avoid inhaling fumes, and never ignite magnesium near flammable liquids or inside shelters.",
         },
       ],
     },
   },
-  {
+    {
     slug: "shelter-building-guide",
     title: "Emergency Shelter Construction",
     category: "shelter",
     summary: "Build life-saving shelters using natural materials and basic tools",
-    readTime: "12 min read",
+    readTime: "5 min read",
     difficulty: "Intermediate",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/tips/emergencyshelter.png",
     content: {
       introduction:
-        "Shelter protects you from the elements and can mean the difference between life and death in survival situations. This guide covers various shelter types you can build with minimal tools.",
+        "Shelter is one of the top survival priorities — protecting you from cold, wind, rain, and sun can make the difference between life and death. Even with minimal tools, you can construct effective shelters using natural materials. This guide introduces proven shelter types adapted from survival experts and field manuals.",
       sections: [
         {
           title: "Site Selection",
           content:
-            "Choosing the right location is crucial for an effective shelter. Consider protection from wind, water drainage, material availability, and safety factors.",
+            "A well-chosen site is often more important than the shelter itself. Good placement reduces exposure and risk while making construction easier.",
           checklist: [
-            "Avoid low areas that collect water",
-            "Look for natural windbreaks",
-            "Check for overhead hazards (dead branches)",
-            "Ensure good drainage",
-            "Consider sun exposure for warmth",
-            "Stay away from game trails",
+            "Avoid depressions or gullies where water collects",
+            "Choose ground with natural drainage (slight slope is best)",
+            "Look for natural windbreaks like boulders or thick brush",
+            "Check overhead for hazards such as dead branches ('widowmakers')",
+            "Consider sun exposure — south-facing slopes are warmer in cold climates",
+            "Stay clear of insect nests, animal burrows, and game trails",
           ],
         },
         {
           title: "Debris Hut Construction",
           content:
-            "The debris hut is one of the most effective emergency shelters. It uses natural insulation to trap body heat and shed water.",
+            "The debris hut is considered one of the best all-around emergency shelters because it provides insulation and weather resistance with only natural materials.",
           tips: [
-            "Make the interior just large enough for your body",
-            "Use a strong ridgepole supported at both ends",
-            "Layer debris 2-3 feet thick for insulation",
-            "Create a door plug to seal the entrance",
+            "Start with a sturdy ridgepole (a long branch or log) supported on one end by a forked stick or stump",
+            "Lean strong sticks along both sides of the ridgepole to form a frame",
+            "Pile leaves, grass, pine needles, or bark 2–3 feet thick to create insulation that traps body heat",
+            "Make the inside only large enough for you to crawl in — smaller space means less heat loss",
+            "Build a thick door plug of debris to block the entrance and retain warmth",
           ],
         },
         {
           title: "Lean-To Shelter",
           content:
-            "A lean-to is quick to build and effective when combined with a reflector fire. It's ideal for short-term survival situations.",
+            "A lean-to is one of the quickest shelters to construct and works well with fire. When paired with a reflector wall, it provides both wind protection and radiant heat.",
           checklist: [
-            "Find or create a horizontal support beam",
-            "Lean poles against the beam at 45-degree angle",
-            "Layer bark, branches, or debris for roofing",
-            "Build a reflector wall opposite the opening",
-            "Position fire between shelter and reflector",
+            "Secure a horizontal support beam between two trees or with forked uprights",
+            "Lean poles or large branches against the beam at roughly a 45° angle",
+            "Cover the roof with bark slabs, evergreen boughs, or layered debris to shed rain",
+            "Stack logs or build a wall of rocks opposite the open side to reflect heat",
+            "Position a fire between the lean-to opening and the reflector wall for maximum warmth",
+          ],
+        },
+        {
+          title: "Insulation and Comfort",
+          content:
+            "No shelter is complete without ground insulation. Contact with cold, wet soil will drain body heat quickly.",
+          tips: [
+            "Gather pine boughs, dry grass, or leaves to create a mattress 6–8 inches thick",
+            "Use bark or branches as a moisture barrier beneath your bedding",
+            "Keep your sleeping area slightly elevated if possible",
+            "Always replenish insulation daily — it compresses overnight",
           ],
         },
       ],

@@ -44,7 +44,13 @@ export default async function TipPage({ params }: TipPageProps) {
         {/* Header */}
         <div className="mb-8">
           <div className="relative aspect-[2/1] overflow-hidden rounded-2xl mb-6">
-            <Image src={tip.image || "/placeholder.svg"} alt={tip.title} fill className="object-cover" priority />
+            <Image 
+              src={tip.image || "/placeholder.svg"}  
+              alt={tip.title}                        
+              fill                                   
+              className="object-cover"               
+              priority                             
+            />
           </div>
 
           <div className="flex flex-wrap gap-3 mb-4">
