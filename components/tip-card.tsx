@@ -27,7 +27,7 @@ export function TipCard({ tip }: TipCardProps) {
       fire: "bg-orange-500/20 text-orange-300 border-orange-500/30",
       shelter: "bg-blue-500/20 text-blue-300 border-blue-500/30",
       water: "bg-cyan-500/20 text-cyan-300 border-cyan-500/30",
-      navigation: "bg-purple-500/20 text-purple-300 border-purple-500/30",
+      knots: "bg-purple-500/20 text-purple-300 border-purple-500/30",
       "first-aid": "bg-red-500/20 text-red-300 border-red-500/30",
       food: "bg-green-500/20 text-green-300 border-green-500/30",
       gear: "bg-yellow-500/20 text-yellow-300 border-yellow-500/30",

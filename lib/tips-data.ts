@@ -1,7 +1,7 @@
 export interface TipGuide {
   slug: string
   title: string
-  category: "shelter" | "fire" | "water" | "navigation" | "first-aid" | "food" | "gear"
+  category: "shelter" | "fire" | "water" | "knots" | "first-aid" | "food" | "gear"
   summary: string
   readTime: string
   difficulty: "Beginner" | "Intermediate" | "Advanced"
@@ -125,204 +125,198 @@ export const tipGuides: TipGuide[] = [
       ],
     },
   },
+    {
+    slug: "rappel-knot-escape",
+    title: "Rappel Escape Knot (Barrel Knot) with 10 mm Static Rope",
+    category: "knots",
+    summary: "Learn to tie the barrel knot on a 10 mm low-stretch rope for safe rappel escape setups.",
+    readTime: "5 min read",
+    difficulty: "Intermediate",
+    image: "/tips/knot.jpg",  
+    content: {
+      introduction:
+        "In emergency or solo rappel scenarios, being able to escape your rappel safely is vital. A **barrel knot** (also known as a triple overhand stopper) tied on a **10 mm static or low-elongation rope** acts as a friction knot, self-tightening around an anchor and making escape safer and more manageable.",
+      sections: [
+        {
+          title: "Rope Specifications",
+          content:
+            "A 10 mm static or low-stretch rope is ideal for rappel escape setups. It offers excellent strength—around **27 kN** of breaking strength—and minimal stretch, making it predictable under load and stable for knots :contentReference[oaicite:2]{index=2}.",
+        },
+        {
+          title: "Barrel Knot Overview",
+          content:
+            "The barrel knot (triple overhand stopper) is preferred over loops like bowlines because it tightens under load and resists slipping—perfect for anchoring in rappelling scenarios :contentReference[oaicite:3]{index=3}.",
+          tips: [
+            "1. Place the rope around your anchor (tree, ring, rappel station).",
+            "2. Wrap the working end around the standing part to form an X over your palm or anchor point.",
+            "3. Make multiple wraps—at least two loops around the line.",
+            "4. Feed the working end under all the loops to complete the knot.",
+            "5. Pull tight ('dress the knot') and leave a tail of ~18 inches (≈ 45 cm) to prevent slippage :contentReference[oaicite:4]{index=4}.",
+            "6. (Optional) Backup with a simple overhand or figure-eight stopper knot for added safety.",
+          ],
+        },
+        {
+          title: "When to Use It",
+          content:
+            "Use this knot when setting up a single-line rappel and you need to escape from the anchor later—especially in self-rescue or when rappelling alone from fixed anchors :contentReference[oaicite:5]{index=5}.",
+          tips: [
+            "Ensure your anchor (tree, bolt, ring) is solid and of adequate diameter—static ropes should be wrapped around anchors at least 8× the rope diameter if using a friction hitch :contentReference[oaicite:6]{index=6}.",
+            "Practice tying and escaping the knot on the ground before using it in a real scenario.",
+            "Inspect the tail length before committing to any rappel."
+          ]
+        }
+      ]
+    }
+  },
   {
-    slug: "water-purification-methods",
-    title: "Water Purification in the Wild",
+    slug: "water-survival",
+    title: "Water Survival Essentials",
     category: "water",
-    summary: "Safe methods to purify water from natural sources",
-    readTime: "10 min read",
-    difficulty: "Beginner",
-    image: "/placeholder.svg?height=400&width=600",
+    summary: "Techniques to locate, collect, and purify water in survival situations",
+    readTime: "4 min read",
+    difficulty: "Intermediate",
+    image: "/tips/water.jpeg",
     content: {
       introduction:
-        "Clean water is essential for survival, but natural water sources often contain harmful bacteria, viruses, and parasites. This guide covers multiple purification methods to ensure safe drinking water.",
+        "In nature, water is the number one survival priority. The human body can only survive 2–4 days without water, depending on temperature, physical activity, and overall health. However, many natural water sources are contaminated with bacteria, viruses, or parasites, making it essential to know how to locate and purify water safely.",
       sections: [
         {
-          title: "Boiling Water",
+          title: "Locating Water",
           content:
-            "Boiling is the most reliable method to kill pathogens in water. It requires only a heat source and container.",
+            "Water can be found in rivers, streams, lakes, or even from soil moisture and plants. Observing your environment is key.",
           tips: [
-            "Bring water to a rolling boil for at least 1 minute",
-            "At altitudes above 6,500 feet, boil for 3 minutes",
-            "Let water cool before drinking",
-            "Improve taste by pouring between containers to add oxygen",
+            "Follow green vegetation and animal tracks: they often lead to water sources",
+            "Look for ground depressions after rainfall: they can temporarily store water",
+            "In coastal areas, dig a small well a few meters from the shore to get less salty water",
+            "Collect rainwater using tarps, large leaves, or improvised containers",
           ],
         },
         {
-          title: "Filtration Methods",
+          title: "Purification Methods",
           content:
-            "Filtration removes particles and some pathogens but should be combined with purification for safety.",
+            "Drinking untreated water can cause diseases such as giardiasis, dysentery, or cholera. Always purify water before drinking.",
           checklist: [
-            "Cloth or bandana for basic filtering",
-            "Sand and charcoal filter system",
-            "Commercial water filters",
-            "Improvised bottle filter with layers",
-            "Solar disinfection (SODIS) method",
+            "Boiling: at least 1 minute, or 3 minutes at altitudes above 2000 m",
+            "Filtration: use commercial filters or improvise with sand, charcoal, and cloth",
+            "Chemical: iodine or chlorine tablets, following dosage instructions",
+            "UV: portable UV devices or solar disinfection (SODIS method using clear plastic bottles for 6 hours in direct sunlight)",
           ],
         },
         {
-          title: "Chemical Purification",
+          title: "Water Conservation",
           content:
-            "Water purification tablets and drops are lightweight options for treating water when boiling isn't possible.",
+            "In extreme conditions, every drop counts. Efficient water management can make the difference between life and death.",
           tips: [
-            "Follow manufacturer's instructions for dosage",
-            "Wait the full treatment time before drinking",
-            "Pre-filter cloudy water for better effectiveness",
-            "Consider taste and potential side effects",
+            "Avoid direct sunlight exposure and reduce physical activity during peak heat hours",
+            "Drink in small, frequent sips instead of large amounts all at once",
+            "Do not wait until you are thirsty: thirst is already a sign of dehydration",
+            "Keep your mouth closed and breathe through your nose to minimize moisture loss",
           ],
         },
       ],
     },
   },
   {
-    slug: "navigation-without-compass",
-    title: "Natural Navigation Techniques",
-    category: "navigation",
-    summary: "Find your way using natural signs and celestial navigation",
-    readTime: "15 min read",
-    difficulty: "Advanced",
-    image: "/placeholder.svg?height=400&width=600",
-    content: {
-      introduction:
-        "When GPS fails and compasses break, natural navigation becomes essential. Learn to read the signs that nature provides to find your direction and location.",
-      sections: [
-        {
-          title: "Solar Navigation",
-          content:
-            "The sun is your most reliable directional indicator during the day. Understanding its movement helps determine cardinal directions.",
-          tips: [
-            "Sun rises in the east, sets in the west",
-            "At solar noon, sun is due south (Northern Hemisphere)",
-            "Use shadow stick method for accurate direction",
-            "Watch for sun's arc across the sky",
-          ],
-        },
-        {
-          title: "Star Navigation",
-          content:
-            "Stars provide excellent navigation references at night, with Polaris being the most important for northern navigation.",
-          checklist: [
-            "Locate the Big Dipper constellation",
-            "Use pointer stars to find Polaris (North Star)",
-            "Polaris indicates true north",
-            "Learn major constellations for your region",
-            "Use star movement to track time",
-          ],
-        },
-        {
-          title: "Natural Indicators",
-          content: "Nature provides many subtle clues about direction if you know what to look for.",
-          tips: [
-            "Moss often grows on north side of trees (not always reliable)",
-            "Snow melts faster on south-facing slopes",
-            "Tree branches are fuller on south side",
-            "Ant hills often have gentler slopes facing south",
-          ],
-        },
-      ],
-    },
-  },
-  {
-    slug: "wilderness-first-aid",
+    slug: "wilderness-first-aid-essentials",
     title: "Wilderness First Aid Essentials",
     category: "first-aid",
     summary: "Critical medical skills for remote locations",
-    readTime: "20 min read",
+    readTime: "4 min read",
     difficulty: "Intermediate",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/tips/firstaid.jpg", 
     content: {
       introduction:
-        "Medical emergencies in remote locations require different approaches than urban first aid. Distance from help, limited supplies, and environmental factors all affect treatment decisions.",
+        "Medical emergencies in remote locations require different approaches than urban first aid. Constraints like distance from care, limited supplies, environmental hazards, and delayed rescue make wilderness protocols essential.",
       sections: [
         {
           title: "Assessment and Priorities",
           content:
-            "In wilderness settings, proper assessment and prioritization can mean the difference between life and death.",
+            "Initial evaluation in the wilderness follows a structured protocol to quickly identify life threats and guide treatment decisions.",
           checklist: [
-            "Check for immediate life threats (ABC: Airway, Breathing, Circulation)",
-            "Control severe bleeding",
-            "Treat for shock",
-            "Assess spinal injuries carefully",
-            "Monitor vital signs regularly",
-            "Plan for evacuation if needed",
+            "Ensure scene safety before approaching the patient (e.g. unstable terrain, hazards)",
+            "Follow the ABC mnemonic: Airway, Breathing, Circulation to identify immediate threats :contentReference[oaicite:0]{index=0}",
+            "Control severe bleeding using direct pressure or pressure dressings :contentReference[oaicite:1]{index=1}",
+            "Assess for shock and treat by keeping the patient warm and elevating legs if needed",
+            "Evaluate potential spinal injuries; move patient only if life-threatening risk is present",
+            "Regularly monitor vital signs and plan evacuation strategy early",
           ],
         },
         {
           title: "Wound Care",
           content:
-            "Proper wound cleaning and dressing prevents infection, which can be life-threatening in remote areas.",
+            "Proper wound cleaning and dressing are critical to preventing infection—especially when evacuation and professional care may be delayed.",
           tips: [
-            "Clean hands before treating wounds",
-            "Irrigate wounds with clean water",
-            "Remove visible debris carefully",
+            "Wash or sanitize hands before treating wound (use gloves if available)",
+            "Irrigate wound thoroughly with clean water and remove visible debris :contentReference[oaicite:2]{index=2}",
             "Apply antibiotic ointment if available",
-            "Dress wounds to keep clean and dry",
-            "Monitor for signs of infection",
+            "Cover wounds with clean, dry dressings and change regularly",
+            "Watch for infection signs: redness, swelling, increased pain, fever",
           ],
         },
         {
           title: "Environmental Injuries",
           content:
-            "Wilderness environments present unique injury risks that require specific knowledge to treat effectively.",
+            "Wilderness settings can produce injuries uncommon in urban environments. Awareness and early recognition are key.",
           checklist: [
-            "Hypothermia recognition and treatment",
-            "Heat exhaustion and heat stroke",
-            "Altitude sickness symptoms",
-            "Snake bite protocols",
-            "Insect sting reactions",
-            "Plant poisoning identification",
+            "Hypothermia: monitor core temperature and insulate patient",
+            "Heat exhaustion/stroke: cool the patient and rehydrate",
+            "Altitude sickness: descend if symptoms worsen",
+            "Snake bites: immobilize, keep calm, evacuate promptly",
+            "Severe allergic or insect sting reactions requiring epinephrine",
+            "Plant poisoning: identify, rinse skin/wash mouth, and consult medical sources",
           ],
         },
       ],
     },
   },
   {
-    slug: "gear-maintenance-field",
+    slug: "field-gear-maintenance",
     title: "Field Gear Maintenance",
     category: "gear",
     summary: "Keep your equipment functional in harsh conditions",
-    readTime: "12 min read",
+    readTime: "5 min read",
     difficulty: "Intermediate",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/tips/gearmaintenance.jpg", 
     content: {
       introduction:
-        "Proper gear maintenance in the field can extend equipment life and prevent failures when you need your tools most. This guide covers essential maintenance techniques for survival gear.",
+        "Maintaining your gear in the field helps avoid tool failure when you need it most. Regular cleaning, lubrication, and basic repairs extend equipment life—even under tough outdoor conditions.",
       sections: [
         {
           title: "Knife Care",
           content:
-            "A sharp, well-maintained knife is crucial for survival tasks. Proper care ensures reliability and safety.",
+            "A sharp, well-maintained knife is one of your most vital tools in the wilderness. Proper care ensures performance and safety over time.",
           tips: [
-            "Keep blades clean and dry to prevent rust",
-            "Sharpen regularly using stones or field sharpeners",
-            "Oil carbon steel blades to prevent corrosion",
-            "Check handle tightness and repair loose parts",
-          ],
+            "Clean your blade by hand after each use and dry it immediately—never soak it or use a dishwasher :contentReference[oaicite:1]{index=1}.",
+            "Use a whetstone or guided system to sharpen the edge. Use coarse grit (200-800) for repairing, medium (1000-3000) for sharpening, and fine (4000+) for finishing :contentReference[oaicite:2]{index=2}.",
+            "Oil carbon steel blades after cleaning to protect against rust; stainless steel blades still benefit from a light protective oil :contentReference[oaicite:3]{index=3}.",
+            "Check the handle and pivot; tighten loose parts and lubricate folding mechanisms as needed :contentReference[oaicite:4]{index=4}."
+          ]
         },
         {
-          title: "Fire Starting Equipment",
-          content: "Fire starting tools require regular maintenance to ensure they work when needed most.",
-          checklist: [
-            "Keep ferro rods clean and dry",
-            "Replace worn strikers",
-            "Waterproof matches and lighters",
-            "Maintain tinder supplies",
-            "Test equipment regularly",
-          ],
-        },
-        {
-          title: "Clothing and Fabric Gear",
+          title: "Fire-Starting Equipment",
           content:
-            "Proper care of clothing and fabric items maintains their protective properties and extends their life.",
-          tips: [
-            "Repair tears immediately to prevent spreading",
-            "Clean gear regularly to maintain breathability",
-            "Re-waterproof items as needed",
-            "Store properly to prevent mold and mildew",
-          ],
+            "Reliability of fire tools can make the difference between a safe camp and a dangerous one. Keep them ready for action.",
+          checklist: [
+            "Wipe down and dry ferro rods or fire steels after use, especially if exposed to moisture.",
+            "Check striker edges and replace them if worn or deformed.",
+            "Carry waterproof matches or store lighter in a sealed case to keep them dry.",
+            "Regularly replenish your tinder materials like waxed cotton balls or natural fibers.",
+            "Test your fire-starting gear before heading into the field to ensure functionality."
+          ]
         },
-      ],
-    },
+        {
+          title: "Clothing & Fabric Gear",
+          content:
+            "Proper care of clothing and fabric gear preserves their protective qualities and structural integrity.",
+          tips: [
+            "Repair tears or seams immediately to prevent further damage.",
+            "Clean your gear regularly—dirt and oils degrade waterproofing and breathability.",
+            "Reapply waterproof treatments (like DWR coatings) when water no longer beads on the surface.",
+            "Dry and store fabrics properly to prevent mold or mildew on long trips."
+          ]
+        }
+      ]
+    }
   },
 ]
 

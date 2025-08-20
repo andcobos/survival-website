@@ -1,7 +1,7 @@
 import { SectionHeading } from "@/components/section-heading"
 import { TipCard } from "@/components/tip-card"
 import { Card, CardContent } from "@/components/ui/card"
-import { Flame, Home, Droplets, Compass, Heart, Utensils, Settings } from "lucide-react"
+import { Flame, Home, Droplets, Cable, Heart, Utensils, Settings } from "lucide-react"
 import { tipGuides } from "@/lib/tips-data"
 
 export default function TipsPage() {
@@ -9,7 +9,7 @@ export default function TipsPage() {
     { id: "fire", name: "Fire", icon: Flame, color: "bg-orange-500" },
     { id: "shelter", name: "Shelter", icon: Home, color: "bg-blue-500" },
     { id: "water", name: "Water", icon: Droplets, color: "bg-cyan-500" },
-    { id: "navigation", name: "Navigation", icon: Compass, color: "bg-purple-500" },
+    { id: "knots", name: "Knots", icon: Cable, color: "bg-purple-500" },
     { id: "first-aid", name: "First Aid", icon: Heart, color: "bg-red-500" },
     { id: "food", name: "Food", icon: Utensils, color: "bg-green-500" },
     { id: "gear", name: "Gear", icon: Settings, color: "bg-yellow-500" },
