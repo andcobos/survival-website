@@ -24,6 +24,13 @@ export const metadata: Metadata = {
   authors: [{ name: "Tactival Team" }],
   creator: "Tactival",
   publisher: "Tactival",
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+      { url: "/favicon.ico", sizes: "any" }
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
