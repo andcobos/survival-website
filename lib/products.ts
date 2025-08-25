@@ -283,7 +283,7 @@ export const products: Product[] = [
       Material: "Premium polyester fiber fabric",
       Recommended_Uses: "Trauma, emergency, outdoor activities"
     },
-    externalUrl: "https://a.co/d/example"
+    externalUrl: "https://a.co/d/0aVP9H0"
   },
   {
     slug: "everlit-250pc-survival-kit",
@@ -309,7 +309,7 @@ export const products: Product[] = [
       Weight: "2 lbs",
       Recommended_Uses: "Camping, hunting, hiking"
     },
-    externalUrl: "https://a.co/d/example"
+    externalUrl: "https://a.co/d/0cs6GlN"
   },
 
   // EDC
@@ -335,7 +335,7 @@ export const products: Product[] = [
       Color: "Black",
       Uso: "Survival, Hiking, Fishing, Hunting, Camping"
     },
-    externalUrl: "https://a.co/d/example"
+    externalUrl: "https://a.co/d/a5wF2iI"
   },
   {
     slug: "sabre-advanced-pepper-spray",
@@ -416,7 +416,7 @@ export const products: Product[] = [
       Color: "Black",
       Includes: "US flag patch"
     },
-    externalUrl: "https://example.com/military-tactical-backpack-50l"
+    externalUrl: "https://a.co/d/5tzXzxy"
   },
   {
     slug: "haomuk-tactical-sling-bag",
